@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "working_pytorch_instance_imseg_ccrop.py" ]
+CMD [ "python", "train_instance_seg.py" ]
